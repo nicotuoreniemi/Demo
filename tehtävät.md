@@ -16,3 +16,13 @@ Aloitin komennosta "git log". Kyseinen komento käytössä olevan git-varaston l
 Lokeista näkyy suoraan mikä on muutoksen tekijän nimi sekä annettu sähköpostiosoite,
 muokkausaika ja päivämäärä sekä commit message. Lisäksi jokaisen commitin "hash" näkyy.
 ![git log](https://imgur.com/zDn1KBb.png)
+
+Seuraava komento oli "git diff". Komento kertoo tiedostolle tapahtuneet muutokset.
+ Itselläni tiedostonimi vain näkyi tyhmästi sillä se sisälsi ääkkösiä. Kuitenkin komennolla
+ näkyi missä tiedostossa muutokset olivat tapahtuneet ja mitä sinne oli lisätty tai poistettu.
+![git diff](https://imgur.com/DB4dlzi.png)
+
+Viimeisenä oli komento "git blame". Se vaati kuitenkin vielä perään tiedostonimen, sillä
+ sen avulla nähdään tiedostosta rivi riviltä tapahtuneet muutokset, niiden tekijät
+  sekä tarkat ajankohdat. Lisäksi näkyi onko muutosta commitattu vielä.
+![git blame](https://imgur.com/DcAbVUq.png)
