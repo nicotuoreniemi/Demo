@@ -10,3 +10,9 @@
 Päätin lisätä muutaman satunnaisen tekstitiedoston git-varastooni. Tehtävään liittyvät tiedostot ovat satunnainen ja random.
 Niiden sisälle laitoin yksinkertaiset koodinpätkät, "cd /home/nico/Demo" ja "ls /home/nico/Demo". Tämän jälkeen lisäsin kuvauksen "Add homework b)".
 Sen jälkeen "git pull" ja "git push" ja ne olivat git-varastossani. ![Tehtävä](https://imgur.com/Lc1CiUV.png)
+
+## c) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+Aloitin komennosta "git log". Kyseinen komento käytössä olevan git-varaston lokihistorian.
+Lokeista näkyy suoraan mikä on muutoksen tekijän nimi sekä annettu sähköpostiosoite,
+muokkausaika ja päivämäärä sekä commit message. Lisäksi jokaisen commitin "hash" näkyy.
+![git log](https://imgur.com/zDn1KBb.png)
