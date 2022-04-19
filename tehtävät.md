@@ -9,4 +9,4 @@
 ## b) Pull first. Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koskee useampaa tiedostoa. Anna hyvä kuvaukset (commit message), yksi englanninkielinen lause imperatiivissa (määräysmuodossa) "Add top level menu to Foobar synchronizer"
 Päätin lisätä muutaman satunnaisen tekstitiedoston git-varastooni. Tehtävään liittyvät tiedostot ovat satunnainen ja random.
 Niiden sisälle laitoin yksinkertaiset koodinpätkät, "cd /home/nico/Demo" ja "ls /home/nico/Demo". Tämän jälkeen lisäsin kuvauksen "Add homework b)".
-Sen jälkeen "git pull" ja "git push" ja ne olivat git-varastossani. ![Tehtävä](/home/nico/Pictures/2.png)
+Sen jälkeen "git pull" ja "git push" ja ne olivat git-varastossani. ![Tehtävä](https://imgur.com/a/ClIs0Im)
