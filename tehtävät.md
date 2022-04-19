@@ -35,6 +35,7 @@ molempien sisällöksi vain "123". Sitten käytin komentoa "git reset --hard"
 ## Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
 Ajattelin, että tekisin salt-tilan, joka asentaa muutaman ohjelman, joita olen aina tarvinnut kursseillani.
 Kyseessä oli hyvin yksinkertainen tila, joka asentaa ssh, flameshot, git, apache, micro sekä tree ohjelmat.
-Kokeilin vielä, että tila toimi itselläni normaalisti.
-![ohjelmat](https://imgur.com/BEQnQXM.png)
-![testi](https://imgur.com/E8vpyM6.png)
+Lisäksi, laitoin tilan nopeasti luomaan apachen kotisivun sekä käyttäjän kotisivut. 
+Kokeilin vielä, että tila toimi itselläni normaalisti. Poistin muutaman ohjelman ja ajoin tilan uusiksi.
+![ohjelmat](https://imgur.com/PvUvpzM.png)
+![testi](https://imgur.com/rPCmhBF.png)
