@@ -30,7 +30,7 @@ Viimeisenä oli komento "git blame". Se vaati kuitenkin vielä perään tiedosto
 ## c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 Päätin tehdä muutoksia b) kohdassa tekemiini kahteen tiedostoon vaihtamalla
 molempien sisällöksi vain "123". Sitten käytin komentoa "git reset --hard"
- ja sain ilmoituksen "HEAD is now at cb9f03e Continue homework".
+ ja sain ilmoituksen "HEAD is now at cb9f03e Continue homework". Tarkistin tiedostot ja mitään muutoksia ei ollut tapahtunut, vaan ne poistettiin.
 
 ## Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
 Ajattelin, että tekisin salt-tilan, joka asentaa muutaman ohjelman, joita olen aina tarvinnut kursseillani.
